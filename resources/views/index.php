@@ -33,11 +33,11 @@
 			<li class="nav-item">
 				<a class ="nav-link" href="#">home</a>
 			</li>
-				<li class="nav-item">
+			<!--	<li class="nav-item">
 				<a class ="nav-link" href="#">portafolio</a>
-			</li>
+			</li>-->
 				<li class="nav-item">
-				<a class ="nav-link" href="#">contactos</a>
+				<a class ="nav-link" href="#footer">contactos</a>
 			</li>
 
 		</ul>
@@ -59,7 +59,7 @@
 
 </ul>		
 <div class="carousel-inner">
-	<div class="carousel-item active">
+	<div id="activo" class="carousel-item active">
 		<img src="img/background.png">
 		<div class= "carousel-caption">
 		<h1 class="display-2">Bienvenido</h1>	
@@ -80,14 +80,9 @@
 <div class="row jumbotron">
 	<div class = "col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
 		<p class= "lead">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Somos un Grupo de tres jóvenes del gran concepción que formaron este emprendimiento, para poder ayudar a las pequeñas empresas, jóvenes recién egresados y pymes para que puedan tener una identidad que los represente en el mercado nacional actual.
 		
-		 
+	
 		</p>
 </div>
 
@@ -102,7 +97,7 @@
 	</div>
 	<hr>
 	<div class= "col-12">
-		<p class="lead"> bienvenido a la pagina :D </p>
+		<p class="lead">  </p>
 	</div>
 
 </div>
@@ -111,21 +106,22 @@
 <div class= "container-fluid padding">
 <div class= "row text-center padding">
 	<div class= "col-xs-12 col-sm-6 col-md-4">
-		<i class ="fas fa-code"></i>
-		<h3>HTML5</h3>
-		<p>Utilizando la ultima version de HTML,HTML5</p>
+	<img src ="img/pencil.png" width="150px" height="150px">
+		<h3>Branding</h3>
+		<p> Creamos marcas atractivas y únicas que representan fielmente a nuestros clientes de manera eficiente, logrando un resultado del agrado de nuestros clientes.
+		</p>
 
 	</div>
 		<div class= "col-xs-12 col-sm-6 col-md-4">
-		<i class ="fas fa-bold"></i>
-		<h3>BOOTSTRAP</h3>
-		<p>Utilizando la ultima version de Bootstrap,BOOTSTRAP 4</p>
+		<img src ="img/camera.svg" width="150px" height="150px">
+		<h3>fotografia</h3>
+		<p>Realizaremos tus proyectos fotográficos profesionalmente para que obtengas el resultado que desees. Obtendrá fotografías para sus productos de gran calidad con la finalidad de utilizarlas a fin de que aumente la productividad de su negocio.</p>
 		
 	</div>
 		<div class= "col-sm-12 col-md-4">
-		<i class ="fab fa-css3"></i>
-		<h3>CSS3</h3>
-		<p>Utilizando la ultima version de Css,CSS3</p>
+		<img src ="img/web design.svg" width="150px" height="150px">
+		<h3>diseño web</h3>
+		<p>En la actualidad se aprecia que su empresa posea de una página web, en la cual nuestro diseñador web lo orientará para poder crear algo que sea agradable y vaya de la mano con su marca.</p>
 		
 	</div>			
 </div>
@@ -133,20 +129,15 @@
 </div>	
 
 <!--- Two Column Section -->
+
+<!--
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-lg-6">
-			<h2> titulo bonito </h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p> 
-				<p>Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
-				<p> Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Nuestros clientes :D</h2>
+				
 				<br>
-				<a href="#" class="btn btn-primary">Ver mas</a>
+				<a href="#" class="btn btn-primary">porno aqui</a>
 		</div>
 		<div class="col-lg-6">
 		<img src="img/desk.png" class="img-fluid">
@@ -154,10 +145,11 @@
 	</div>	
 
 </div>
-<hr class="my-4">
+
+<hr class="my-4">-->
 <!--- Fixed background -->
 
-<!--- Emoji Section -->
+<!--- Emoji Section 
 
 	<div class="container-fluid padding">
 		<div class= "row text-center">
@@ -175,7 +167,9 @@
 				<img class="gif" src="img/gif/chicken.gif">
 				</div>
 		</div>
-	</div>		
+	</div>
+-->
+
 <!--- Meet the team -->
 <div class= "container-fluid padding">
 	<div class="row welcome text-center">
@@ -192,10 +186,10 @@
 	<!-- carta 1 -->
 	<div class= "col-md-4">
 			<div class= "card">
-			<img class= "card-img-top" src="img/team1.png">
+			<img class= "card-img-top" src="img/rr.jpeg" height="300px" width="200px">
 			<div class= "card-body">
-				<h4 class="card-title">Juan Guapo</h4>
-				<p> Juan Guapo es un hombre Guapo e inteligente de 26 años. </p>
+				<h4 class="card-title">Rodrigo Alarcon A.</h4>
+				<p>  Encargado de fotografía y motion graphics. Se destaca en la fotografía de modelaje y retrato, de manera eficiente y responsable.</p>
 				<a href="#" class= "btn btn-outline-secondary">Ver Perfil</a>	
 			</div>	
 			</div>	
@@ -204,10 +198,11 @@
 	<!-- carta 2 -->
 	<div class= "col-md-4">
 			<div class= "card">
-			<img class= "card-img-top" src="img/team2.png">
+			<img class= "card-img-top" src="img/tt.jpg" height="300px" width="200px">
 			<div class= "card-body">
-				<h4 class="card-title">Maria Juana</h4>
-				<p> Maria Juana es la mejor...... Profesional de nuestro equipo de diseñadores </p>
+				<h4 class="card-title">Rodolfo (toto) Cores I.</h4>
+				<p> Titulado en ingeniería de ejecución en computación e informática. Especializado en el diseño de paginas web a medida y pagina web wordpress
+ </p>
 				<a href="#" class= "btn btn-outline-secondary">Ver Perfil</a>	
 			</div>	
 			</div>	
@@ -216,10 +211,11 @@
 	<!-- carta 3 -->
 	<div class= "col-md-4">
 			<div class= "card">
-			<img class= "card-img-top" src="img/team3.png">
+			<img class= "card-img-top" src="img/pp.jpg" height="300px" width="200px">
 			<div class= "card-body">
-				<h4 class="card-title">Elbert Galarga</h4>
-				<p> Elbert es nuestro experto en ascii art.
+				<h4 class="card-title">Nicolas Zapata U.</h4>
+				<p>Encargado del área de ilustración y branding , con facilidad y capacidad de adaptarse a cualquier desafío que se le proponga.
+
 </p>
 				<a href="#" class= "btn btn-outline-secondary">Ver Perfil</a>	
 			</div>	
@@ -228,35 +224,13 @@
 
 </div>		
 </div>
-<!--- Two Column Section -->
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-lg-6">
-			<h2> Nuestra forma de trabajo </h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p> 
-				<p>Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
-				<p> Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<br>
-			
-		</div>
-		<div class="col-lg-6">
-		<img src="img/bootstrap2.png" class="img-fluid">
-		</div>	
-	</div>	
 	<hr class="my-4">
-</div>
-
-
-<!--- Connect -->
+<!--- Two Column Section -->
+<!--
 <div class= "container-fluid padding">
 <div class="row text-center padding">
 	<div class= "col-12">
-		<h2>Nuestras Redes Sociales</h2>
+		<h2>Nuestros Clientes</h2>
 	</div>
 	<div class= "col-12 social padding">
 	 	<a href="#"><i class="fab fa-facebook"></i></a>
@@ -267,23 +241,36 @@
 	</div>
 </div>		
 </div>
+	<hr class="my-4">
+-->	
+
+
+<!--- Connect -->
+<div class= "container-fluid padding">
+<div class="row text-center padding">
+	<div class= "col-12">
+		<h2>Nuestras Redes Sociales</h2>
+	</div>
+	<div class= "col-12 social padding">
+	 	<a href="https://www.facebook.com/profile.php?id=115560033177203&ref=br_rs" target="_blank"><i class="fab fa-facebook"></i></a>
+	 	<a href="https://www.instagram.com/tri.click/" target="_blank"><i class="fab fa-instagram"></i></a>
+	</div>
+</div>		
+</div>
 <!--- Footer -->
-<footer>
+<footer id="footer">
 <div class="container-fluid padding">
 <div class="row text-center">
-	<div class="col-md-4">
+	<div class="col-lg-6">
 
 		<img src="img/tri-click trans.png" width="200" height="100">
 		<hr class="light">
-	
-		<p>041-2933233</p>
-		<p>micorreo@micorreo.com</p>
-		<p>calle mi casa 6969</p>
-		<p>Concepcion, 00000</p>
+		<i class="fab fa-whatsapp" id="whatsapp"></i><p>041-2933233</p>
+		<p>tri.click.concepcion@gmail.com</p>
 		<p></p>
 	</div>
 
-	<div class="col-md-4" id="col2">
+	<div class="col-lg-6" id="col2">
 
 		<hr class="light">
 		<h5>Nuestro horario</h5>
@@ -293,14 +280,7 @@
 		<p>Domingo es del señor</p>
 	</div>	
 	
-	<div class="col-md-4" id="col3">
-
-		<hr class="light">
-		<h5>Como llegar</h5>
-		<hr class="light">
-		<p>Mapita de gugul</p>
-	</div>
-	<div class="col-12">
+	<div class="col-12" id="copy">
 		<hr class="light-100">
 		<h5>&copy; TRI-CLICK.cl</h5>
 	</div>
@@ -318,11 +298,5 @@
 
 
 
-
-
-
-<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
-
-<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
 
 
